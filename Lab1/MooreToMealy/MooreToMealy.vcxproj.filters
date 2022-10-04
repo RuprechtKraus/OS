@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lab1.cpp">
+    <ClCompile Include="MooreToMealy.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="core.cpp">
@@ -23,14 +23,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="mealy.txt">
+    <Text Include="moore.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Transition.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="core.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>

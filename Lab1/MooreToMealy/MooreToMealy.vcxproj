@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9b584261-d5ce-4276-a709-cca60dc8c40c}</ProjectGuid>
-    <RootNamespace>Lab1</RootNamespace>
+    <ProjectGuid>{73661855-252b-46c8-bc71-5f962f689a21}</ProjectGuid>
+    <RootNamespace>MooreToMealy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,15 +129,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab1.cpp" />
     <ClCompile Include="core.cpp" />
+    <ClCompile Include="MooreToMealy.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="mealy.txt" />
+    <Text Include="moore.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core.h" />
-    <ClInclude Include="Transition.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
